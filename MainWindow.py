@@ -79,6 +79,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         # SearchThread
         if self.input_text.startswith('https://www.youtube.com/watch?v='):
             self.url_flag = True
+        else:
+            self.url_flag = False
         self.searchThread = SearchThread(self.browser, self.input_text, self.url_flag)
         self.searchThread.callback.connect(self.search_thread_callback)
         self.searchThread.search_result.connect(self.search_thread_result)
