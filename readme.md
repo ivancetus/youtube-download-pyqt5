@@ -1,5 +1,5 @@
 
-### some info
+### Note
 - [Reference](http://mahaljsp.asuscomm.com/index.php/2020/08/28/youtube_download/)  
 
 - UI layout is based on another app, `stocx_download` which is a web crawler that read pages on an online novel website, download text as txt.
@@ -19,7 +19,7 @@
 
 - provide custom `img/favicon.ico` if you want it to show on the app
 
-- execute `pic_to_string.py` 
+- execute `pic_to_string.py` to get `pic_string.py`
 
 - execute pyinstaller on your system, need to have every package installed as in venv 
 
